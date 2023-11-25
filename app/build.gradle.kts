@@ -52,8 +52,8 @@ android {
 
 dependencies {
 
-    implementation(project(":domain"))
     implementation(project(":data"))
+    implementation(project(":domain"))
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
@@ -73,12 +73,10 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
 
-    implementation("io.coil-kt:coil-compose:2.0.0-rc01")
-    implementation("androidx.compose.ui:ui-tooling:1.6.0-beta01")
+    implementation("io.coil-kt:coil-compose:2.5.0")
     implementation("androidx.compose.foundation:foundation:1.6.0-beta01")
     implementation("androidx.compose.foundation:foundation-layout:1.6.0-beta01")
     implementation("androidx.compose.material:material:1.6.0-beta01")
-    implementation("de.charlex.compose:html-text:1.3.1")
 
     //Moshi
     implementation("com.squareup.moshi:moshi:1.15.0")

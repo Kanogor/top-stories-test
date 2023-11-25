@@ -27,7 +27,6 @@ fun MainScreen(multimediaList: MutableState<List<Multimedia>>) {
             MultimediaItem(item = item)
         }
     }
-
 }
 
 @Composable
