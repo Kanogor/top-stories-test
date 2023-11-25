@@ -7,7 +7,7 @@ import ru.kanogor.topstoriestest.data.dto.PictureInfoDto
 
 interface SearchApiInfo {
 
-    @GET("world.json")
+    @GET("arts.json")
     suspend fun getPictureInfo(
         @Query("api-key") apiKey: String = API_KEY
     ): Response<PictureInfoDto>
