@@ -13,4 +13,4 @@
 .externalNativeBuild
 .cxx
 local.properties
-/app/src/main/java/ru/kanogor/topstoriestest/data/ApiKey.kt
+/data/src/main/java/ru/kanogor/topstoriestest/data/ApiKey.kt

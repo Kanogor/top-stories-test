@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "TopStoriesTest"
 include(":app")
- 
+include(":data")
+include(":domain")

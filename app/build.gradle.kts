@@ -52,6 +52,9 @@ android {
 
 dependencies {
 
+    implementation(project(":domain"))
+    implementation(project(":data"))
+
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
     implementation("androidx.activity:activity-compose:1.8.1")
@@ -77,16 +80,11 @@ dependencies {
     implementation("androidx.compose.material:material:1.6.0-beta01")
     implementation("de.charlex.compose:html-text:1.3.1")
 
-    //Glide
-    implementation("com.github.bumptech.glide:glide:4.15.1")
-    annotationProcessor("com.github.bumptech.glide:compiler:4.14.2")
     //Moshi
     implementation("com.squareup.moshi:moshi:1.15.0")
     ksp("com.squareup.moshi:moshi-kotlin-codegen:1.15.0")
     //Gson
     implementation("com.google.code.gson:gson:2.10.1")
-    //recycler
-    implementation("androidx.recyclerview:recyclerview:1.3.2")
     //retrofit
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
